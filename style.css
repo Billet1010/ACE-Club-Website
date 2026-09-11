@@ -81,6 +81,12 @@ a:visited {
 footer {
     background-color:#16161D ;
     color:#f2f0ef;
+    border-radius:5px;
+    text-align:center;
+    font-size: 0.2rem;
+}
+#homebody{
+    font-size: 0.2rem;
 }
 #homebody h2{
     text-align:center;
@@ -130,11 +136,6 @@ input {
     text-align:center;
     border-radius:20px;
     margin:70px;
-}
-footer {
-    border-radius:5px;
-    text-align:center;
-    font-size: 0.2rem;
 }
 .foot {
     margin:20px;
