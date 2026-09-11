@@ -134,6 +134,7 @@ input {
 footer {
     border-radius:5px;
     text-align:center;
+    font-size: 0.2rem;
 }
 .foot {
     margin:20px;
