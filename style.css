@@ -27,119 +27,127 @@
 /* html */
 html {
     font-size: 0.4vw;
+    overflow-x:hidden;
 }
 
 body {
     font-family: CourierPrime;
     font-size: 4rem;
 }
-a:link {
-    color: #f2f0ef ;
-    text-decoration: none;
-}
-a:visited {
-    color :#f2f0ef ;
-    text-decoration: none;
+
+/* fade in animation */
+
+@keyframes fadeInAnimation{
+
+    0% {
+        opacity: 0; 
+        transform: translatex(100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translatex(0%);
+    }
+
 }
 
+.fadeIn{
+
+animation: fadeInAnimation linear;
+
+animation-fill-mode: forwards;
+
+animation-timeline: view();
+
+animation-range: entry -25% cover 25%;
 
 
-#tutorbody {
-    margin: 50px;
-}
-#bookingbody {
-    margin: 50px;
-}
-#introductions {
-    margin: 50px;
-}
-h1 {
-    text-align:center;
 }
 
-input {
-    font-family: CourierPrime;
-    background-color:#a42821;
-    color:#f2f0ef ;
-    border: none;
-    border-radius: 4px;
+/* main content */
+
+#mainContent {
+    font-size: 4rem;
+    width: 100%;
+    background-color:  #F47174;
+    z-index: 300;
+    color: white;
+    margin:0;
+    padding: 0;
 }
 
-
-@media only screen and (max-width: 600px) {
-    #tutorbody {
-    margin: 10px;
-}
-#bookingbody {
-    margin: 10px;
-}
-
-#news{
-    margin:25px;
-}
-}
-.logo {
-    border-radius:15px;
-}
-#news {
-    background-color:#a42821;
-    border: 5px solid #FF746C;
-    color:#f2f0ef ;
-    text-align:center;
-    border-radius:20px;
-    margin:70px;
-}
+/* logo styling at the bottom */
 
 #logobottom {
-    padding:10px;
-    margin:5px;
+    padding: 0;
+    margin: 0;
     text-align:center;
-     position:Fixed;
-    bottom :2px;
-     border-radius:5px;
-}
-#box {
-    display:flex;
-    flex-wrap:wrap;
-    flex-direction:row;
-    position:sticky;
-    top:0px;
-    justify-content:space-evenly;
-    border-radius:5px;
-}
-#box > div {
-    padding:10px;
-    margin:5px;
-    text-align:center;
-    border:5px dashed #a42821;
+    position: fixed;
+    bottom: -1%;
+    left: 5%;
+
+    transform: translate(-50%, -50%);
+
+    height: 12.5rem;
+    width: 12.5rem;
+
+    border-radius: 50%;
+    z-index: 600;
+    overflow: hidden;
+
+    background-image: url('images/aceLogo.png');
+    background-size: cover;
+    background-position: center;
+
+    border: 2px solid white;
+
 }
 
 /* menu */
 
 #menu {
+    font-size: 5rem;
     display:flex;
     flex-wrap:wrap;
     flex-direction:row;
     background-color:#16161D;
-    
     position:sticky;
     top:0px;
     justify-content:space-evenly;
-    border-radius:5px;
+    align-items: center;
+    width: 100%;
+    aspect-ratio: 15/1;
+    z-index: 500;
 }
-#menu > div {
-    padding:10px;
-    margin:5px;
-    text-align:center;
+ #menu > div {
+    padding: 0;
+    margin: 0;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+#menu > div > button {
+    background-color:#16161D;
+    color:white;
+    border:none;
+    font-family: CourierPrime;
+    font-size: 4rem;
+    cursor: pointer;
 }
 
 /* banner */ 
 
-.banner {
+#banner {
     position:relative;
     font-size: 5rem;
     width: 100%;
     aspect-ratio: 1819/607;
+    z-index: 400;
 
 }
 
@@ -175,6 +183,7 @@ footer {
     font-size: 5rem;
     width: 100%;
     aspect-ratio: 6/1;
+    z-index: 400;
 
 }
 

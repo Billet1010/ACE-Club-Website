@@ -6,20 +6,21 @@
     <body>
 
          <div id="menu">
-            <div><p>Home</p></div>
-            <div><p>Tutor Profiles</p></div>
-            <div><p>For Tutors</p></div>
-            <div><p>Sessions</p></div>
+            <div><button onclick="indexTextChanger()">Home</button></div>
+            <div><button onclick="forTutorsChanger()">Tutor Profiles</button></div>
+            <div><button>For Tutors</button></div>
+            <div><button>Sessions</button></div>
+
         </div>
 
-        <div class="banner">
-            <img id="bannerImage" src="acebanner.png" alt="Banner Image">
+        <div id="banner">
+            <img id="bannerImage" src="images/acebanner.png" alt="Banner Image">
             <div id="bannerText">
                 <div>
                 <p style="font-weight: bold">Ace your exams</p>
                 </div>
                 <div>
-                <p style="font-weight:">with ACE Club!</p>
+                <p style="font-weight: bold">with ACE Club!</p>
                 </div>
                 <div>
                 <p>Find local tutors for your child!</p>
@@ -27,18 +28,30 @@
             </div>
         </div>
 
-        <div id="logobottom"><img class = "logo" src="images/acelogog.png" style ="height:50px; width: 80px"/></div>
+        <div id="mainContent">
+
+
+
+        </div>
+
+        <div id="logobottom"></div>
+
+        <footer>
+            <div id="footTextContainer">
+                <div>
+                    <p id="boldFooterText">Any Questions? Contact Us!</p>
+                </div>
+                <div>    
+                    <p id="footerText"> Our Email: phs.ace.tutoring@gmail.com </p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="text.js"></script>
+        <script src="main.js"></script>
 
     </body>
 
-    <footer>
-        <div id="footTextContainer">
-            <div>
-                <p id="boldFooterText">Any Questions? Contact Us!</p>
-            </div>
-            <div>    
-                <p id="footerText"> Our Email: phs.ace.tutoring@gmail.com </p>
-            </div>
-        </div>
-    </footer>
+    
+
 </html>
