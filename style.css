@@ -59,7 +59,7 @@ animation-fill-mode: forwards;
 
 animation-timeline: view();
 
-animation-range: entry -25% cover 25%;
+animation-range: entry -50% cover 25%;
 
 
 }
@@ -74,6 +74,11 @@ animation-range: entry -25% cover 25%;
     color: white;
     margin:0;
     padding: 0;
+}
+
+a{
+    text-decoration: none;
+
 }
 
 /* logo styling at the bottom */
