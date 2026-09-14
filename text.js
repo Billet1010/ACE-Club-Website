@@ -1,34 +1,53 @@
 
 
 const indexText = `
-    <div class="fadeIn">
+
+    <div class="mainContentTitle">
+        <h1>
+            About Us
+        </h1>
+    </div>
+
+    <div class="middle">
+
+        <h3 class="title">
+            Upcoming Events
+        </h3>
 
         <p>Our first meeting will occur on: ____. </p>
         <p>Club Rush is approaching! club Rush: _. </p>
 
     </div>
 
-    <p class="fadeIn">
-        ACE Club is a non-profit tutoring orginization ran 
-        entirely by local high school students. We have a wide
-        range of tutors who can offer both academic  assistance
-        and private music lessons to your elemetary schooler. 
-        Our mission as a non-profit is to provide accessible 
-        and free tutoring for the children in our area, as well
-        as providing chances for teenagers to learn 
-        professionalism, adaptability and communitcation 
-        skills. We believe that the smaller age gap between 
-        tutors and students a more comfortable and relatable 
-        learning environment, allowing students to be taught 
-        while also gaining a valuable relationship. 
-    </p>
+    <div class="fadeInLeft left">
 
-    <div>
-        <h4 class="fadeIn"> 
+        <h3 class="title"> 
+            What is ACE?
+        </h3>
+        
+        <p>
+            ACE Club is a non-profit tutoring orginization ran 
+            entirely by local high school students. We have a wide
+            range of tutors who can offer both academic  assistance
+            and private music lessons to your elemetary schooler. 
+            Our mission as a non-profit is to provide accessible 
+            and free tutoring for the children in our area, as well
+            as providing chances for teenagers to learn 
+            professionalism, adaptability and communitcation 
+            skills. We believe that the smaller age gap between 
+            tutors and students a more comfortable and relatable 
+            learning environment, allowing students to be taught 
+            while also gaining a valuable relationship. 
+        </p>
+
+    </div>
+
+    <div class="fadeInRight right">
+        <h4 class="title"> 
             Our Location 
         </h4>
 
-        <p class="fadeIn">
+        <p>
             Our operations are currently based out of Los 
             Alamitos Elementary School, and we will be holding
             our lessons in classroom P1. We are directly 
@@ -38,13 +57,13 @@ const indexText = `
 
     </div>
 
-    <div>
+    <div class="fadeInLeft left">
 
-        <h4 class="fadeIn"> 
+        <h4 class="title"> 
             Academics
         </h4>
 
-        <p class="fadeIn">
+        <p>
             In our academics tutoring (nicknamed our 'Hearts
             Division') , we offer every subjects for K-8 
             education. Our core subjects that every tutor is
@@ -59,13 +78,13 @@ const indexText = `
 
     </div>
 
-    <div>
+    <div class="fadeInRight right" >
 
-        <h4 class="fadeIn">
+        <h4 class="title">
             Music
-        </h4 class="fadeIn">
+        </h4>
 
-        <p class="fadeIn">
+        <p>
             In our music division, (nicknamed our 
             'Spades Division'), unlike academics, the
             lessons that are offered are directly dependant
@@ -76,7 +95,7 @@ const indexText = `
             offer: 
         </p>
 
-        <ul class="fadeIn">
+        <ul>
             <li>Violin</li>
             <li>Viola</li>
             <li>Cello</li>
@@ -95,13 +114,16 @@ const indexText = `
 
 const forTutorsText = `
 
-    <div>
+    <div class="mainContentTitle">
     
-        <h1 class="fadeIn">
+        <h1>
             For Aspiring Tutors 
         </h1>
+    
+    </div>
 
-        <p class="fadeIn">
+    <div class="middle">
+        <p>
             This page is dedicated to recruiting and
             helping new tutors for our organization!
             if you are a parent, you may be looking
@@ -110,13 +132,13 @@ const forTutorsText = `
 
     </div>
     
-    <div>
+    <div class="fadeInRight right">
 
-        <h3 class="fadeIn"> 
+        <h3 class="title"> 
             For Pioneer High School Students 
         </h3>
 
-        <p class="fadeIn">
+        <p>
             If you attend Pioneer High School and want to
              become a tutor, please attend our weekly 
             meetings in P5 every week during lunc. There,
@@ -134,13 +156,13 @@ const forTutorsText = `
 
     </div>   
 
-    <div>
+    <div class="fadeInLeft left">
 
-        <h3 class="fadeIn">
+        <h3 class="title">
             The Sophomore Project
         </h3>
 
-        <p class="fadeIn">
+        <p>
             Hours spent tutoring within the ACE Club will
              count for your Sophomore Project hours. 
             However, we advise not to completely rely on
@@ -152,13 +174,13 @@ const forTutorsText = `
 
     </div>
 
-    <div>
+    <div class="fadeInRight right">
 
-        <h3 class="fadeIn">
+        <h3 class="title">
             For Non-Pioneer Students 
         </h3>
 
-        <p class="fadeIn">
+        <p>
             If you do not attend Pioneer High School and
              want to become a tutor, simply reach out 
             to us through our email attached at the bottom
@@ -175,20 +197,20 @@ const forTutorsText = `
 
     </div>
 
-    <div>
+    <div class="fadeInLeft left">
         
-        <h1 class="fadeIn"> 
+        <h1 class="title"> 
             Resources for Tutors 
         </h1>
 
-        <p class="fadeIn">
+        <p>
             If you want to be more prepared before attending
              you first tutoring session, please check out these
             websites, and if you attend Pioneer, attend the
              club seminars. 
         </p>
           
-        <div class="fadeIn"> 
+        <div> 
             <a href = "https://www.gse.harvard.edu/ideas/ed-magazine/22/06/art-talking-children">The Art of Talking with Children</a>
             <br>
             <a href = "https://www.theguardian.com/lifeandstyle/2016/jan/30/how-to-talk-to-children-even-if-you-dont-have-any">How to Talk to Children Even if You Don't Have Any</a>
@@ -196,5 +218,214 @@ const forTutorsText = `
             <a href ="https://www.indeed.com/career-advice/career-development/professionalism-in-teaching">Professionalism In Teaching</a>
         </div>
            
+
+`;
+
+const sessionsText = `
+
+    <div class="mainContentTitle">
+        
+        <h1>
+            Tutoring Sessions 
+        </h1>
+
+    </div>
+
+    <div class="fadeInLeft left">
+
+        <h2 class="title"> 
+            How ACE Works
+        </h2>
+
+        <p>
+            How we at ACE assign children to tutors is
+            based on what area the child needs help with.
+            Our tutors have specific strong suits and skill
+            sets, so if your child needs help specifically
+            in reading, or in math, you would recieve a
+            tutor that is strong in that particular
+            subject. Additionally, if your child tends
+            to be more disruptive, or dislikes certain
+            methods of teaching, we can find a tutor
+            with greater communication skills, or with
+            that certain style of teaching for you,
+            so long as you let us know of these
+            attributes. You can let any ACE
+            representative know about these
+            traits before any session and
+            we'll write it down!
+        </p>
+
+    </div>
+
+    <div  class="fadeInRight right"> 
+
+        <h2 class="title">
+            Tutoring Sessions 
+        </h2>
+
+        <p> 
+            We host tutoring sessions at the following 
+            elementary schools: 
+        </p>
+
+        <ul>
+            <li>Los Alamitos</li>
+            <li>Simonds</li>
+            <li>Allen</li>
+        </ul>
+
+        <p> 
+         Currently, we only offer music lessons at 
+         Simonds in collaboration with their band and 
+         orchestra program. If we expand to academics there, 
+         or collaborate with any other schools we will add 
+         them to this list.
+        </p>
+
+    </div>
+
+    <div class="fadeInLeft left"> 
+
+        <h1 class="title">
+            School by School Times and Locations
+        </h1>
+
+        <div>
+
+            <h3>
+                Los Alamitos
+            </h3>
+
+            <p> 
+                Held in Room P1 
+            </p>
+
+            <p> 
+                Thursdays from 2:20 to 3:30 and from
+                3:40 to 4:50
+            </p>
+
+        </div>
+
+        <div>
+
+            <h3>
+                Allen
+            <h3>
+
+            <p> 
+                Held in ___ 
+            </p>
+
+            <p>
+                Mondays from 3:20 to 4:20
+            </p>
+
+        </div>
+    
+    </div>
+
+
+`;
+
+const profilesText = `
+
+    <div class="mainContentTitle">
+
+        <h1>
+            About our CoFounders
+        </h1>
+    
+    <div>
+
+        <div class="fadeInLeft left">
+
+            <h2 class="title">
+                Erika Song
+            </h2>
+
+            <p style="font-size: 4rem">
+                Hi, my name is Erika Song, and I am currently a 
+                Sophomore in pionner high school. I enjoy playin
+                the flute, reading , and gaming in my free time. My goal in High school is to improve in flute while enjoying the intrument.
+                The courses I'm taking this year include AP world, AP seminar, AP chemistry, honors Pre-Calculus, Honors Ethnic Studies Literature, Wind Ensemble, and Spanish 3-4. My area of expertise is in education and music.
+                The following are my qualifications:
+            </p>
+
+            <ul style="font-size: 4rem">
+                <li>Taught math for Mathcounts in Castillero Middle School</li>
+                <li>I tutor in Simonds Band + tutor flute + TA'd for Beginning Band in Castillero Middle School</li>
+                <li>Active participant in Almaden Youth Musicians (AYM), California Youth Symphony (CYS), and MUSE (Music & Us Serving Everyone)</li>
+                <li>I won first in American Protege, Charleston International Music Competition, San Francisco International Music Competition twice, and US International Open Music Competition, won 2nd in KAMSA, and performed at Carnegie Hall.</li>
+            </ul>
+
+        </div>
+
+        <div class="fadeInRight right">
+
+            <h2 class="title">
+                Tyler Gobok
+            </h2>
+
+            <p style="font-size: 4rem">
+                Aloha!! My name is Tyler Gobok, and I am
+                a sophomore at Pioneer High School. I enjoy
+                playing volleyball, viola, and video games
+                in my free time. My goal is to get into
+                the Cambrian Symphony and All State for
+                viola and to get into Fusion Volleyball
+                Club or Morgan Hill Volleyball Club. My
+                long-term goal is to get into either 
+                UCLA or Stanford. I am currently
+                taking Spanish 3-4, Honors Pre-Calculus, 
+                Honors Ethnic Studies Literature, AP 
+                Chemistry, AP Seminar, AP World History, 
+                and ASB Leadership. The following are my 
+                qualifications: 
+            </p>
+
+            <ul style="font-size: 4rem">
+                <li>I was the captain of my 8th grade Volleyball team and won the leadership award.</li>
+                <li>Was the JV volleyball manager.</li>
+                <li>I participate in Palo Alto Chamber Orchestra (PACO)</li>
+                <li>I was principal Violist in the San Jose State University String Summer Camp.</li>
+                <li>I got into the San Jose Youth Symphony Chamber Ensemble.</li>
+                <li>I tutor students in viola and at Simonds Elementary School.</li>
+                <li>I was in the highest orchestra level in my middle school</li>
+                <li>I was in the highest orchestra level in my high school</li>
+                <li>I've been in ASB leadership since freshman year</li>
+            </ul>
+
+        </div>
+
+        <div class="fadeInLeft left">
+
+            <h2 class="title">
+                Seinosuke Tojo
+            </h2> 
+
+            <p style="font-size: 4rem">
+                Moi!!!! My name is Seinosuke Tojo, a 
+                sophomore in Pioneer High School. I enjoy 
+                playing volleyball, watching films, and 
+                Japanese . My goal currently is to improve 
+                my volleyball skills.The current classes I 
+                take are ASB Leadership, Japanese, Honors 
+                Ethnic Studies, Honors Pre-Calculus, AP 
+                Chemistry, and AP Worldworld. My area of 
+                expertise includes education. The following 
+                are my qualifications: 
+            </p>
+
+            <ul style="font-size: 4rem">
+                <li>Freshman on varsity for volleyball </li>
+                <li>Graduated Japanese school elementary/middle school</li>
+                <li>Got the highest average score in end of year exam for Japanese score</li>
+                <li>Highest score for history in the end of year exam </li>
+                <li>Elected as Grade representative 5 years straight  for Japanese school</li>
+            </ul>
+
+        </div>
 
 `;
