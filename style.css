@@ -27,21 +27,22 @@
 /* html */
 html {
     font-size: 0.4vw;
-    overflow-x:hidden;
+    overflow-x: hidden;
 }
 
 body {
     font-family: CourierPrime;
     font-size: 4rem;
+    margin: 0;
 }
 
 /* fade in animation */
 
-@keyframes fadeInAnimation{
+@keyframes fadeInAnimationRight{
 
     0% {
         opacity: 0; 
-        transform: translatex(100%);
+        transform: translateX(100%);
     }
 
     100% {
@@ -51,29 +52,108 @@ body {
 
 }
 
-.fadeIn{
+@keyframes fadeInAnimationLeft{
 
-animation: fadeInAnimation linear;
+    0%{
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
 
-animation-fill-mode: forwards;
+}
+
+
+.fadeInRight{
+
+animation: fadeInAnimationRight linear;
+
+animation-fill-mode: both;
 
 animation-timeline: view();
 
-animation-range: entry -25% cover 25%;
-
+animation-range: entry 0% cover 30%;
 
 }
+
+.fadeInLeft{
+
+    animation:fadeInAnimationLeft linear;
+
+    animation-fill-mode: both;
+
+    animation-timeline: view();
+
+    animation-range: entry 0% cover 30%;
+
+}
+
 
 /* main content */
 
 #mainContent {
     font-size: 4rem;
     width: 100%;
-    background-color:  #F47174;
+    background-color: #FD9D9D;
+    background-image: url("images/mainContent(1).png");
+    background-position:center;
+    background-size: contain;
     z-index: 300;
-    color: white;
+    color: black;
     margin:0;
     padding: 0;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+.title{
+    text-align: center;
+}
+
+.left{
+    position: relative;
+    left: 0%;
+    width: 40%;
+    border: 2rem dashed black;
+    background-color: white;
+    border-radius: 10rem;
+    margin: 5%;
+    padding: 2rem;
+}
+
+.middle{
+    position:relative;
+    left:20%;
+    text-align:center;
+    border:2rem dashed black;
+    background-color: white;
+    border-radius: 10rem;
+    margin: 5%;
+    padding: 2rem;
+    width: 50%;
+}
+
+.right{
+
+    position: relative;
+    left: 50%;
+    width: 40%;
+    border: 2rem dashed black;
+    background-color: white;
+    border-radius: 10rem;
+    margin: 5%;
+    padding: 2rem;
+}
+
+.mainContentTitle{
+    text-align:center;
+    font-size: 7rem;
+
 }
 
 /* logo styling at the bottom */

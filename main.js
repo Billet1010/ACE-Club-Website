@@ -1,8 +1,10 @@
 
 
 // constants for ratio 
-const aspectRatioIndex = '1/0.8';
-const aspectRatioForTutors = '1/0.8';
+const aspectRatioIndex = '1/2';
+const aspectRatioForTutors = '1/1.8';
+const aspectRatioSessions = '1/1.6';
+const aspectRatioProfiles = '1/2';
 
 const mainContent = document.getElementById("mainContent");
 
@@ -24,4 +26,17 @@ function forTutorsChanger(){
 
 }
 
+function sessionChanger(){
+
+    mainContent.innerHTML = sessionsText;
+    mainContent.style.aspectRatio = aspectRatioSessions;
+
+}
+
+function profileChanger(){
+
+    mainContent.innerHTML = profilesText;
+    mainContent.style.aspectRatio = aspectRatioProfiles;
+
+}
 
