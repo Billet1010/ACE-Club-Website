@@ -210,13 +210,17 @@ const forTutorsText = `
              club seminars. 
         </p>
           
-        <div> 
-            <a href = "https://www.gse.harvard.edu/ideas/ed-magazine/22/06/art-talking-children">The Art of Talking with Children</a>
-            <br>
-            <a href = "https://www.theguardian.com/lifeandstyle/2016/jan/30/how-to-talk-to-children-even-if-you-dont-have-any">How to Talk to Children Even if You Don't Have Any</a>
-            <br>
-            <a href ="https://www.indeed.com/career-advice/career-development/professionalism-in-teaching">Professionalism In Teaching</a>
-        </div>
+        <ul>
+            <li>
+                <a href = "https://www.gse.harvard.edu/ideas/ed-magazine/22/06/art-talking-children">The Art of Talking with Children</a>
+            </li>
+            <li>
+                <a href = "https://www.theguardian.com/lifeandstyle/2016/jan/30/how-to-talk-to-children-even-if-you-dont-have-any">How to Talk to Children Even if You Don't Have Any</a>
+            </li>
+            <li>
+                <a href ="https://www.indeed.com/career-advice/career-development/professionalism-in-teaching">Professionalism In Teaching</a>
+            </li>
+        </ul>
            
 
 `;
@@ -312,7 +316,7 @@ const sessionsText = `
 
             <h3>
                 Allen
-            <h3>
+            </h3>
 
             <p> 
                 Held in ___ 
@@ -345,7 +349,7 @@ const profilesText = `
                 Erika Song
             </h2>
 
-            <p style="font-size: 4rem">
+            <p style="font-size: 4rem; text-align:left;">
                 Hi, my name is Erika Song, and I am currently a 
                 Sophomore in pionner high school. I enjoy playin
                 the flute, reading , and gaming in my free time. My goal in High school is to improve in flute while enjoying the intrument.
@@ -368,7 +372,7 @@ const profilesText = `
                 Tyler Gobok
             </h2>
 
-            <p style="font-size: 4rem">
+            <p style="font-size: 4rem; text-align:left;">
                 Aloha!! My name is Tyler Gobok, and I am
                 a sophomore at Pioneer High School. I enjoy
                 playing volleyball, viola, and video games
@@ -405,7 +409,7 @@ const profilesText = `
                 Seinosuke Tojo
             </h2> 
 
-            <p style="font-size: 4rem">
+            <p style="font-size: 4rem; text-align:left;">
                 Moi!!!! My name is Seinosuke Tojo, a 
                 sophomore in Pioneer High School. I enjoy 
                 playing volleyball, watching films, and 
@@ -427,5 +431,33 @@ const profilesText = `
             </ul>
 
         </div>
+
+        <div class="fadeInRight right">
+
+            <h2 class="title">
+                Noelle Nguyen
+            </h2>
+
+            <p style="font-size: 4rem; text-align:left;">
+                Hey, my name is Noelle Nguyen, and I am a 
+                sophomore at Pioneer High School. I enjoy 
+                playing water polo, drawing and participating 
+                in robotics in my free time. My goal in high 
+                school is to learn as much as possible and to get better 
+                at art. I am currently taking AP Physics A, AP World, Honors 
+                Chemistry, Honors Ethnic Studies Literature, Honors Pre-Calculus, 
+                and Draw-Paint-Design. My area of expertise in tutoring is education, 
+                percussion and rhythm. Below are my qualifications:
+            </p>
+
+            <ul style="font-size: 4rem">
+                <li> Got on varsity for water polo in my freshman year </li>
+                <li> I won 1st in League for our team and Varsity MVP in freshman year </li>
+                <li> I was band TA in 8th Grade at Castillero Middle School </li>
+                <li> Participated in Team 668 Robotics </li>
+                <li> Conversant in ASL </li>
+            </ul>
+        </div>
+
 
 `;
