@@ -104,6 +104,11 @@ animation-range: entry 0% cover 30%;
     color: black;
     margin:0;
     padding: 0;
+    text-align: left;
+}
+
+#mainContent ul{
+    text-align: left;
 }
 
 a{
@@ -119,7 +124,7 @@ a{
     position: relative;
     left: 0%;
     width: 40%;
-    border: 2rem dashed black;
+    border: 2rem solid black;
     background-color: white;
     border-radius: 10rem;
     margin: 5%;
@@ -130,7 +135,7 @@ a{
     position:relative;
     left:20%;
     text-align:center;
-    border:2rem dashed black;
+    border:2rem solid black;
     background-color: white;
     border-radius: 10rem;
     margin: 5%;
@@ -143,7 +148,7 @@ a{
     position: relative;
     left: 50%;
     width: 40%;
-    border: 2rem dashed black;
+    border: 2rem solid black;
     background-color: white;
     border-radius: 10rem;
     margin: 5%;
@@ -157,31 +162,6 @@ a{
 }
 
 /* logo styling at the bottom */
-
-#logobottom {
-    padding: 0;
-    margin: 0;
-    text-align:center;
-    position: fixed;
-    bottom: -1%;
-    left: 5%;
-
-    transform: translate(-50%, -50%);
-
-    height: 12.5rem;
-    width: 12.5rem;
-
-    border-radius: 50%;
-    z-index: 600;
-    overflow: hidden;
-
-    background-image: url('images/aceLogo.png');
-    background-size: cover;
-    background-position: center;
-
-    border: 2px solid white;
-
-}
 
 /* menu */
 
@@ -218,6 +198,16 @@ a{
     font-family: CourierPrime;
     font-size: 4rem;
     cursor: pointer;
+    transition: 1s;
+    border-radius: 3rem;
+    padding: 1rem;
+}
+
+#menu > div > button:hover{
+
+    background-color: white;
+    color: #16161D;
+
 }
 
 /* banner */ 
