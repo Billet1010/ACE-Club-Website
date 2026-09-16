@@ -132,7 +132,7 @@ const forTutorsText = `
 
     </div>
     
-    <div class="fadeInRight right">
+    <div class="fadeInLeft left">
 
         <h3 class="title"> 
             For Pioneer High School Students 
@@ -156,7 +156,7 @@ const forTutorsText = `
 
     </div>   
 
-    <div class="fadeInLeft left">
+    <div class="fadeInRight right">
 
         <h3 class="title">
             The Sophomore Project
@@ -174,7 +174,7 @@ const forTutorsText = `
 
     </div>
 
-    <div class="fadeInRight right">
+    <div class="fadeInLeft left">
 
         <h3 class="title">
             For Non-Pioneer Students 
@@ -197,7 +197,7 @@ const forTutorsText = `
 
     </div>
 
-    <div class="fadeInLeft left">
+    <div class="fadeInRight right">
         
         <h1 class="title"> 
             Resources for Tutors 
