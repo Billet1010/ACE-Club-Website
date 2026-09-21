@@ -368,7 +368,7 @@ const profilesText = `
 
             <div class="imageProfile">
 
-                <img style="aspect-ratio: 1536 / 2048; width: 100%;" src="/images/erika.jpg" alt="Image of Erika Song" />
+                <img style="aspect-ratio: 1536 / 2048; width: 100%;" src="images/erika.jpg" alt="Image of Erika Song" />
             
             </div>
 
@@ -378,7 +378,7 @@ const profilesText = `
 
             <div class="imageProfile">
 
-                <img style="aspect-ratio: 1080 / 1440; width: 100%;" src="/images/tyler.jpg" alt="Image of Tyler Gobak" />
+                <img style="aspect-ratio: 1080 / 1440; width: 100%;" src="images/tyler.jpg" alt="Image of Tyler Gobak" />
 
             </div>
 
@@ -452,7 +452,7 @@ const profilesText = `
 
             <div class="imageProfile">
 
-                <img style="aspect-ratio: 1080 / 1801; width: 100%;" src="/images/suke.jpg" alt="Image of Seinosuke Tojo" />
+                <img style="aspect-ratio: 1080 / 1801; width: 100%;" src="images/suke.jpg" alt="Image of Seinosuke Tojo" />
 
             </div>
 
@@ -462,7 +462,7 @@ const profilesText = `
 
             <div class="imageProfile">
 
-                <img style="aspect-ratio: 1084 / 1642; width: 100%;" src="/images/noelle.jpg" alt="Image of Noelle Nguyen" />
+                <img style="aspect-ratio: 1084 / 1642; width: 100%;" src="images/noelle.jpg" alt="Image of Noelle Nguyen" />
             </div>
 
             <div class="textProfile">
