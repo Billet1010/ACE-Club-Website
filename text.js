@@ -343,120 +343,154 @@ const profilesText = `
     
     <div>
 
-        <div class="fadeInLeft left">
+        <div class="fadeInLeft profile">
 
-            <h2 class="title">
-                Erika Song
-            </h2>
+            <div class="textProfile">
+                <h2 class="title">
+                    Erika Song
+                </h2>
 
-            <p style="font-size: 4rem; text-align:left;">
-                Hi, my name is Erika Song, and I am currently a 
-                Sophomore in pionner high school. I enjoy playin
-                the flute, reading , and gaming in my free time. My goal in High school is to improve in flute while enjoying the intrument.
-                The courses I'm taking this year include AP world, AP seminar, AP chemistry, honors Pre-Calculus, Honors Ethnic Studies Literature, Wind Ensemble, and Spanish 3-4. My area of expertise is in education and music.
-                The following are my qualifications:
-            </p>
+                <p style="font-size: 4rem; text-align:left;">
+                    Hi, my name is Erika Song, and I am currently a 
+                    Sophomore in pionner high school. I enjoy playin
+                    the flute, reading , and gaming in my free time. My goal in High school is to improve in flute while enjoying the intrument.
+                    The courses I'm taking this year include AP world, AP seminar, AP chemistry, honors Pre-Calculus, Honors Ethnic Studies Literature, Wind Ensemble, and Spanish 3-4. My area of expertise is in education and music.
+                    The following are my qualifications:
+                </p>
 
-            <ul style="font-size: 4rem">
-                <li>Taught math for Mathcounts in Castillero Middle School</li>
-                <li>I tutor in Simonds Band + tutor flute + TA'd for Beginning Band in Castillero Middle School</li>
-                <li>Active participant in Almaden Youth Musicians (AYM), California Youth Symphony (CYS), and MUSE (Music & Us Serving Everyone)</li>
-                <li>I won first in American Protege, Charleston International Music Competition, San Francisco International Music Competition twice, and US International Open Music Competition, won 2nd in KAMSA, and performed at Carnegie Hall.</li>
-            </ul>
+                <ul style="font-size: 4rem">
+                    <li>Taught math for Mathcounts in Castillero Middle School</li>
+                    <li>I tutor in Simonds Band + tutor flute + TA'd for Beginning Band in Castillero Middle School</li>
+                    <li>Active participant in Almaden Youth Musicians (AYM), California Youth Symphony (CYS), and MUSE (Music & Us Serving Everyone)</li>
+                    <li>I won first in American Protege, Charleston International Music Competition, San Francisco International Music Competition twice, and US International Open Music Competition, won 2nd in KAMSA, and performed at Carnegie Hall.</li>
+                </ul>
+            </div>
 
-        </div>
+            <div class="imageProfile">
 
-        <div class="fadeInRight right">
-
-            <h2 class="title">
-                Tyler Gobok
-            </h2>
-
-            <p style="font-size: 4rem; text-align:left;">
-                Aloha!! My name is Tyler Gobok, and I am
-                a sophomore at Pioneer High School. I enjoy
-                playing volleyball, viola, and video games
-                in my free time. My goal is to get into
-                the Cambrian Symphony and All State for
-                viola and to get into Fusion Volleyball
-                Club or Morgan Hill Volleyball Club. My
-                long-term goal is to get into either 
-                UCLA or Stanford. I am currently
-                taking Spanish 3-4, Honors Pre-Calculus, 
-                Honors Ethnic Studies Literature, AP 
-                Chemistry, AP Seminar, AP World History, 
-                and ASB Leadership. The following are my 
-                qualifications: 
-            </p>
-
-            <ul style="font-size: 4rem">
-                <li>I was the captain of my 8th grade Volleyball team and won the leadership award.</li>
-                <li>Was the JV volleyball manager.</li>
-                <li>I participate in Palo Alto Chamber Orchestra (PACO)</li>
-                <li>I was principal Violist in the San Jose State University String Summer Camp.</li>
-                <li>I got into the San Jose Youth Symphony Chamber Ensemble.</li>
-                <li>I tutor students in viola and at Simonds Elementary School.</li>
-                <li>I was in the highest orchestra level in my middle school</li>
-                <li>I was in the highest orchestra level in my high school</li>
-                <li>I've been in ASB leadership since freshman year</li>
-            </ul>
+                <img style="aspect-ratio: 1536 / 2048; width: 100%;" src="/images/erika.jpg" alt="Image of Erika Song" />
+            
+            </div>
 
         </div>
 
-        <div class="fadeInLeft left">
+        <div class="fadeInRight profile">
 
-            <h2 class="title">
-                Seinosuke Tojo
-            </h2> 
+            <div class="imageProfile">
 
-            <p style="font-size: 4rem; text-align:left;">
-                Moi!!!! My name is Seinosuke Tojo, a 
-                sophomore in Pioneer High School. I enjoy 
-                playing volleyball, watching films, and 
-                Japanese . My goal currently is to improve 
-                my volleyball skills.The current classes I 
-                take are ASB Leadership, Japanese, Honors 
-                Ethnic Studies, Honors Pre-Calculus, AP 
-                Chemistry, and AP Worldworld. My area of 
-                expertise includes education. The following 
-                are my qualifications: 
-            </p>
+                <img style="aspect-ratio: 1080 / 1440; width: 100%;" src="/images/tyler.jpg" alt="Image of Tyler Gobak" />
 
-            <ul style="font-size: 4rem">
-                <li>Freshman on varsity for volleyball </li>
-                <li>Graduated Japanese school elementary/middle school</li>
-                <li>Got the highest average score in end of year exam for Japanese score</li>
-                <li>Highest score for history in the end of year exam </li>
-                <li>Elected as Grade representative 5 years straight  for Japanese school</li>
-            </ul>
+            </div>
+
+            <div class="textProfile">
+                <h2 class="title">
+                    Tyler Gobok
+                </h2>
+
+                <p style="font-size: 4rem; text-align:left;">
+                    Aloha!! My name is Tyler Gobok, and I am
+                    a sophomore at Pioneer High School. I enjoy
+                    playing volleyball, viola, and video games
+                    in my free time. My goal is to get into
+                    the Cambrian Symphony and All State for
+                    viola and to get into Fusion Volleyball
+                    Club or Morgan Hill Volleyball Club. My
+                    long-term goal is to get into either 
+                    UCLA or Stanford. I am currently
+                    taking Spanish 3-4, Honors Pre-Calculus, 
+                    Honors Ethnic Studies Literature, AP 
+                    Chemistry, AP Seminar, AP World History, 
+                    and ASB Leadership. The following are my 
+                    qualifications: 
+                </p>
+
+                <ul style="font-size: 4rem">
+                    <li>I was the captain of my 8th grade Volleyball team and won the leadership award.</li>
+                    <li>Was the JV volleyball manager.</li>
+                    <li>I participate in Palo Alto Chamber Orchestra (PACO)</li>
+                    <li>I was principal Violist in the San Jose State University String Summer Camp.</li>
+                    <li>I got into the San Jose Youth Symphony Chamber Ensemble.</li>
+                    <li>I tutor students in viola and at Simonds Elementary School.</li>
+                    <li>I was in the highest orchestra level in my middle school</li>
+                    <li>I was in the highest orchestra level in my high school</li>
+                    <li>I've been in ASB leadership since freshman year</li>
+                </ul>
+            </div>
+            
+        </div>
+
+        <div class="fadeInLeft profile">
+
+            <div class="textProfile">
+
+                <h2 class="title">
+                    Seinosuke Tojo
+                </h2> 
+
+                <p style="font-size: 4rem; text-align:left;">
+                    Moi!!!! My name is Seinosuke Tojo, a 
+                    sophomore in Pioneer High School. I enjoy 
+                    playing volleyball, watching films, and 
+                    Japanese . My goal currently is to improve 
+                    my volleyball skills.The current classes I 
+                    take are ASB Leadership, Japanese, Honors 
+                    Ethnic Studies, Honors Pre-Calculus, AP 
+                    Chemistry, and AP Worldworld. My area of 
+                    expertise includes education. The following 
+                    are my qualifications: 
+                </p>
+
+                <ul style="font-size: 4rem">
+                    <li>Freshman on varsity for volleyball </li>
+                    <li>Graduated Japanese school elementary/middle school</li>
+                    <li>Got the highest average score in end of year exam for Japanese score</li>
+                    <li>Highest score for history in the end of year exam </li>
+                    <li>Elected as Grade representative 5 years straight  for Japanese school</li>
+                </ul>
+
+            </div>
+
+            <div class="imageProfile">
+
+                <img style="aspect-ratio: 1080 / 1801; width: 100%;" src="/images/suke.jpg" alt="Image of Seinosuke Tojo" />
+
+            </div>
 
         </div>
 
-        <div class="fadeInRight right">
+        <div class="fadeInRight profile">
 
-            <h2 class="title">
-                Noelle Nguyen
-            </h2>
+            <div class="imageProfile">
 
-            <p style="font-size: 4rem; text-align:left;">
-                Hey, my name is Noelle Nguyen, and I am a 
-                sophomore at Pioneer High School. I enjoy 
-                playing water polo, drawing and participating 
-                in robotics in my free time. My goal in high 
-                school is to learn as much as possible and to get better 
-                at art. I am currently taking AP Physics A, AP World, Honors 
-                Chemistry, Honors Ethnic Studies Literature, Honors Pre-Calculus, 
-                and Draw-Paint-Design. My area of expertise in tutoring is education, 
-                percussion and rhythm. Below are my qualifications:
-            </p>
+                <img style="aspect-ratio: 1084 / 1642; width: 100%;" src="/images/noelle.jpg" alt="Image of Noelle Nguyen" />
+            </div>
 
-            <ul style="font-size: 4rem">
-                <li> Got on varsity for water polo in my freshman year </li>
-                <li> I won 1st in League for our team and Varsity MVP in freshman year </li>
-                <li> I was band TA in 8th Grade at Castillero Middle School </li>
-                <li> Participated in Team 668 Robotics </li>
-                <li> Conversant in ASL </li>
-            </ul>
+            <div class="textProfile">
+                <h2 class="title">
+                    Noelle Nguyen
+                </h2>
+
+                <p style="font-size: 4rem; text-align:left;">
+                    Hey, my name is Noelle Nguyen, and I am a 
+                    sophomore at Pioneer High School. I enjoy 
+                    playing water polo, drawing and participating 
+                    in robotics in my free time. My goal in high 
+                    school is to learn as much as possible and to get better 
+                    at art. I am currently taking AP Physics A, AP World, Honors 
+                    Chemistry, Honors Ethnic Studies Literature, Honors Pre-Calculus, 
+                    and Draw-Paint-Design. My area of expertise in tutoring is education, 
+                    percussion and rhythm. Below are my qualifications:
+                </p>
+
+                <ul style="font-size: 4rem">
+                    <li> Got on varsity for water polo in my freshman year </li>
+                    <li> I won 1st in League for our team and Varsity MVP in freshman year </li>
+                    <li> I was band TA in 8th Grade at Castillero Middle School </li>
+                    <li> Participated in Team 668 Robotics </li>
+                    <li> Conversant in ASL </li>
+                </ul>
+            </div>
+
         </div>
 
 
